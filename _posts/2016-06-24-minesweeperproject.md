@@ -2,7 +2,7 @@
 layout: post
 title:  "minesweeper"
 date:   2016-06-24
-excerpt: 
+excerpt: ""
 project: true
 tag:
 - jekyll 
