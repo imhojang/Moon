@@ -71,7 +71,6 @@ function resultBtnFxn() {
   alert(`Scroll down to see your result\n페이지 하단의 결과를 확인하세요`);
   drawBaseLine();
   resultBtn.parentElement.removeChild(resultBtn);
-  // $resultContainer.style.display = "block";
 }
 
 function addToResult(event, result, color) {
