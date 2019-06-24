@@ -13,4 +13,4 @@ tag:
 comments: false
 ---
 
-[Minesweeper](https://imhojang.github.io/minesweeper)
+[Minesweeper](https://imhojang.github.io/imhome/minesweeper)
