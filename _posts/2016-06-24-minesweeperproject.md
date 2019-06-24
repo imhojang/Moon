@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Minesweeper"
+title:  "minesweeper"
 date:   2016-06-24
 excerpt: "click here for minesweeper demo"
 project: true
