@@ -1,4 +1,5 @@
-## This Config File is for local development. 
+## This Config File is for publishing on remote repo 
+
 # Site
 title:              "i m h o m e"
 bio:                "imho, that's me"
@@ -6,10 +7,10 @@ description:        "welcome to imhome"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-temp5.jpg'
+background:         'assets/img/placeholder-temp.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://127.0.0.1:4000/
+url:                https://imhojang.github.io/imhome
 
 # Jekyll
 permalink:          /:title/
@@ -43,9 +44,9 @@ email: imhome606@gmail.com
 #facebook:           username
 github-url:         imhojang
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          imho-jang
+#linkedin:          username
 #xing:              username
-#instagram:          oyvvl
+instagram:          oyvvl
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
@@ -71,7 +72,7 @@ gems:
   - jekyll-gist
 
 jekyll-mentions:
-    base_url: http://127.0.0.1:4000/
+    base_url: https://github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
