@@ -1,8 +1,8 @@
 ---
 layout: project
-title:  "Moon Jekyll Theme"
+title:  "Projects"
 date:   2016-04-06
-excerpt: "Minimal, one column Jekyll theme for your blog."
+excerpt: "Minesweeper & ghostleg"
 project: true
 tag:
 - jekyll 
