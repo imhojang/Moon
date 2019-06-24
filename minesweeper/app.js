@@ -49,13 +49,15 @@ function makeGame() {
 
 
   // random mine location
+  // Array().fill().map() 3 combo to create an array of numbers
   var candidates = Array(hor * ver)
     .fill()
     .map(function(item, index) {
       return index;
     });
+    
+  //fisher yates shuffle to shuffle the numbers in array created above
   var shuffle = [];
-
   while (candidates.length > hor * ver - mine) {
     var tempVal = candidates.splice(
       Math.floor(Math.random() * candidates.length),
@@ -207,7 +209,7 @@ function makeGame() {
             }
             surroundArr
               .filter(function(v) {
-                return !!v; // removes undefined values
+                return !!v; // removes undefined values (undefined) -> (true) -> (false)
               })
               .forEach(function(surrBlank) {
                 var parentTr = surrBlank.parentNode;
