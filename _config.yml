@@ -2,7 +2,7 @@
 
 # Site
 title:              "i m h o m e"
-bio:                "Imho, that's me. \n And this is my blog."
+bio:                "Imho, that's me. <br /> And this is my blog."
 description:        "welcome to imhome"
 reading_time:       true
 words_per_minute:   200
