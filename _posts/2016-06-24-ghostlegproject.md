@@ -2,7 +2,7 @@
 layout: post
 title:  "ghostleg"
 date:   2016-06-24
-excerpt: ""
+excerpt: "click here for ghostleg demo"
 project: true
 tag:
 - jekyll 
