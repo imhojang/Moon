@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Projects"
 date:   2016-04-06
 excerpt: "Minesweeper & ghostleg"
