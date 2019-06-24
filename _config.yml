@@ -2,7 +2,7 @@
 
 # Site
 title:              "i m h o m e"
-bio:                "im imho and this is my home"
+bio:                "imho, me, imhome"
 description:        "welcome to imhome"
 reading_time:       true
 words_per_minute:   200
@@ -11,7 +11,7 @@ background:         'assets/img/placeholder-temp5.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://imhojang.github.io/imhome
-
+#url:               http://127.0.0.1:4000/
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
@@ -73,6 +73,7 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+    #base_url: http://127.0.0.1:4000/
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
