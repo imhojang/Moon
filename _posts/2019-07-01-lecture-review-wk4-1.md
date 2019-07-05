@@ -318,7 +318,7 @@ foo.bind(ken);
 ```
 
 ```javascript
-function foo (a,b,c) {}
+function foo (a,b,c) {
     console.log(this.age);
     console.log(a+b+c);
 }
@@ -330,9 +330,34 @@ foo.apply(ken, [1,2,3,4,5,6,7,8,9]);
 // 123
 // 6
 foo.bind() 
-// ??? research on my own!
-
 ```
+>bind is different from 'call' and 'apply' in terms of execution of the function.  
+it binds the parameter to the function! the function called with bind has to be stored inside a variable in order to call with the parameters bound to the function with 'bind' function.
+
+// bind() example 1
+```javascript
+function baz (a, b, c) {
+  console.log(a + b + c);
+  console.log(this.age);
+}
+var imho = { age : 25 };
+var bound = baz.bind(imho, 1, 2, 3);
+bound(); // 25, 6
+```
+
+// bind() example 2
+```javascript
+function baz (a, b , c) {
+  console.log(a + b + c);
+  console.log(this.age);
+}
+
+var imho = { age : 25};
+var bound = baz.bind(imho, 1, 2);
+bound(10); // 25, 13
+bound(20); // 25, 23
+```
+
 
 ### New Keyword 
 
