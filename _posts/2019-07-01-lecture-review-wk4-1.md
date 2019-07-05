@@ -66,7 +66,7 @@ logNumber(null); // null
 logNumber(undefined); // 'Getting number..', 666
 ```
 
-default parameters are passed into the function only if the argument passed is undefined.
+default parameters are passed into the function only if the argument passed in is undefined.
 
 ## String interpolation (template literals)
 
@@ -85,7 +85,7 @@ function getName() {
     return 'imho'
 }
 
-console.log(\`my name is ${s}`);
+console.log(`my name is ${s}`);
 ```
 
 ' ' and " " are used conventionally. \` ` is used in special occasions.
