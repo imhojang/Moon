@@ -331,6 +331,11 @@ foo.apply(ken, [1,2,3,4,5,6,7,8,9]);
 // 6
 foo.bind() 
 ```
+>call() can take infinite number of arguments foo.call(imho, 1, 2, 3, 4, 5, 6 ...)
+  
+>apply can only take 2 arguments, the object being set as this, and an array that will be passed in as the argument of the function being called.  
+the array itself does not have limitations on the number of items.
+
 >bind is different from 'call' and 'apply' in terms of execution of the function.  
 it binds the parameter to the function! the function called with bind has to be stored inside a variable in order to call with the parameters bound to the function with 'bind' function.
 
