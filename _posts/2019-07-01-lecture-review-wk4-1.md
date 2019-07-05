@@ -14,7 +14,9 @@ comments: true
 - default parameter
 - string interpolation a.k.a template literals
 - arrow functions
-- this (4 types of function call)
+- this (4 types of function call)  
+
+
 ---
 
 ## Default Parameter 
