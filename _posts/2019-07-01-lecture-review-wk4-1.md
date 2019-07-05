@@ -185,6 +185,10 @@ obj.logName(1,2,3);
 그리고 함수를 실행하는 방법엔 4가지가 있습니다.  
 (this를 이용하는) 해당 함수를 이 4가지중 어떤 방식으로 실행하느냐에 따라 this의 값은 바뀝니다.
 
+1. regular function call 
+2. dot notation 
+3. function prototype.call , function.prototype.bind, function.prototype.apply explicit binding.
+4. new keyword 
 
 ### regular function call
 
