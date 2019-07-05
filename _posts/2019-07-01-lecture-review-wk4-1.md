@@ -239,7 +239,7 @@ function bar (age) {
 foo();
 ```
 
-### Dot Notation
+### function call with dot notation
 
 // example #1 
 
