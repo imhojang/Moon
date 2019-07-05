@@ -154,9 +154,9 @@ function foo() {
 foo(1, 2, 3);
 ```
 
-// Arrow functions do not have its own 'this', 'argument'.
+>**Arrow functions do not have its own 'this', 'argument'.**  
 
-// all functions in Javascript has 'this' and 'argument' keyword and is always accessible.
+>**All functions in Javascript has 'this' and 'argument' keyword and is always accessible.**
 
 ```javascript
 const name = 'ni';
