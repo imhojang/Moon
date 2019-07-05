@@ -177,12 +177,13 @@ obj.logName(1,2,3);
 
 ## this (4 types of function call)
 
->the value stored in 'this' keyword depends on the situation it is being called.  
-there are 4 specific situations 'this' keyword can be used.  
+>the value stored in 'this' keyword depends on the situation the function of 'this' is being called.  
+>>there are 4 different situations in which'this' keyword can be used.  
+>>these situations will determine the value stored inside the this keyword.
 
 >'this'의 값은 'this'를 사용하는 해당 함수를 "어떤 방식으로" 실행하느냐에 따라 결정됩니다.  
 그리고 함수를 실행하는 방법엔 4가지가 있습니다.  
-(this를 이용하는) 해당 함수를 이 4가지중 어떤 방식으로 실행하느냐에 다라 this의 값은 바뀝니다.
+(this를 이용하는) 해당 함수를 이 4가지중 어떤 방식으로 실행하느냐에 따라 this의 값은 바뀝니다.
 
 
 ### regular function call
