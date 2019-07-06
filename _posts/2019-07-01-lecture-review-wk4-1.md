@@ -367,9 +367,12 @@ bound(20); // 25, 23
 
 ### New Keyword 
 
->using new keyword with this automatically creates a return value. also, written return value will not be returned. 
 
-it will always return this. 
+
+>1. It creates new empty object e.g. obj = { };  
+>2. It sets new empty object's invisible 'prototype' property to be the constructor function's visible and accessible 'prototype' property. (Every function has visible 'prototype' property whereas every object includes invisible 'prototype' property)  
+>3. It binds property or function which is declared with this keyword to the new object.  
+>4. It returns newly created object unless the constructor function returns a non-primitive value (custom JavaScript object). If constructor function does not include return statement then compiler will insert 'return this;' implicitly at the end of the function. If the constructor function returns a primitive value then it will be ignored.  
 
 ```javascript
 function foo () {
