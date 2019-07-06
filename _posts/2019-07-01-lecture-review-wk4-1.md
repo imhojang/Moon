@@ -10,7 +10,7 @@ tag:
 - test
 - jekyll
 comments: true
-feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+feature: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80
 ---
 - default parameter
 - string interpolation a.k.a template literals
