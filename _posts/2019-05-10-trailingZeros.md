@@ -10,6 +10,7 @@ tag:
 - test
 - jekyll
 comments: true
+feature: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80
 ---
 
 ### 꼬리에 붙은 0 (trailingZeros)
