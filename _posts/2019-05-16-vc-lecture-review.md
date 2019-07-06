@@ -10,7 +10,7 @@ tag:
 - test
 - jekyll
 comments: true
-feature: /_posts/vc.png
+feature: ../assets/img/vc.png
 ---
 ---
 #### Q : 바닐라코팅? 그게 뭐죠. 먹는거 아닌가요?  
