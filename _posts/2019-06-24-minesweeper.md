@@ -12,5 +12,3 @@ tag:
 - theme
 comments: false
 ---
-
-# [Minesweeper](https://imhojang.github.io/imhome/minesweeper)
