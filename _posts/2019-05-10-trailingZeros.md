@@ -80,4 +80,4 @@ function trailingZeros(n) {
 
   * **All tests passed !** 
 
-  ![djokawari](djokawari.jpg "dj okawari's album art")
+  ![djokawari](/assets/postimg/djokawari.jpg "dj okawari's album art")

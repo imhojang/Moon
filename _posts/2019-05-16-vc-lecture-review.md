@@ -45,6 +45,6 @@ A: 아, 하하 바닐라 코팅이 아니라 바닐라'코딩' 입니다.  바�
 
 
 
- [![](vc.png)](https://www.vanillacoding.co/)  
+ [![](/assets/img/vc.png)](https://www.vanillacoding.co/)  
 
 | [homepage](https://www.vanillacoding.co/) | [blog](https://medium.com/vanilla-coding) | [facebook](https://www.facebook.com/vcoding/) |  [instagram](https://www.instagram.com/vanilla_coding/)  |

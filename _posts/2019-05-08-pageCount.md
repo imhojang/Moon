@@ -92,4 +92,4 @@ feature: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-1
 
   * **All tests passed !** 
 
-  ![pikachu](pikachu.jpg "$50 dollar pikachu that I won")
+  ![pikachu](/assets/postimg/pikachu.jpg "$50 dollar pikachu that I won")

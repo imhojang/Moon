@@ -50,4 +50,4 @@ feature: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-1
 ###### 결과 분석 :  
   * **All tests passed !**
 
-    ![fireworks at lotte world tower on May 5th, 2019](fireworksatlotteworldtower.png "The fireworks at Lotte WT")
+    ![fireworks at lotte world tower on May 5th, 2019](/assets/postimg/fireworksatlotteworldtower.png "The fireworks at Lotte WT")
