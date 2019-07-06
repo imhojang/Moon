@@ -10,9 +10,8 @@ tag:
 - test
 - jekyll
 comments: true
+feature: vc.png
 ---
-
-[![](vc.png)](https://www.vanillacoding.co/)  
 ---
 #### Q : 바닐라코팅? 그게 뭐죠. 먹는거 아닌가요?  
 ---
