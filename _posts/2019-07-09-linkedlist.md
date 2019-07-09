@@ -15,12 +15,13 @@ feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.
 
 + [Basics](##LinkedList-Basics)
 + [Comparison with Array](##LinkedList-vs.-Array)
++ [Real Life Use Case](##Real-Life-Use-Case)
 + [Implementation](##LinkedList-Implementation)
-+ [Time Complexity](##Time-Complexity-(시간복잡도))
++ [Time Complexity](##Time-Complexity)
 
-![alt](https://s3-us-west-2.amazonaws.com/ib-assessment-tests/problem_images/singly-ll.png)
 
 ## LinkedList Basics
+![alt](https://s3-us-west-2.amazonaws.com/ib-assessment-tests/problem_images/singly-ll.png)
 
 LinkedList는 노드(node)들로 이루어진 선형 자료구조이며, 각각의 노드는 두개의 값을 가지고 있다.
 
@@ -55,6 +56,15 @@ LinkedList가 Array와 비교했을 때 가진 장점 두가지를 꼽자면 하
 
 + Random access is not allowed: LinkedList는 원하는 노드에 접근을 할 때 무조건 맨 처음 노드, head로 부터 시작해야한다는 단점이 있다.  
 + Extra memory space for a pointer is required with each element of the list: 한 단위당 하나의 고유 값만 가지고 있는게 아니라 다음 노드에 대한 레퍼런스값(pointer)도 가지고 있기 때문에 다른 자료구조에 비해 메모리공간을 추가적으로 차지한다.
+
+## Real Life Use Case
+
+- Image Viewer
+  - 이미지 뷰어에서 전 이미지와 그 다음 이미지는 서로 연결 되어있다. 그러므로 이전과 다음 버튼을 이용해 이미지를 순차적으로 볼 수 있다.
+- Music Player
+  - 뮤직 플레이어에서도 위와 마찬가지로 이전 노래는 다음 노래에 대한 포인터가 있고 다음 노래는 이전 노래에 대한 포인터가 있다. 이전과 다음 버튼을 이용하여 이전 노래와 다음 노래를 오갈 수 있다. 
+- Previous and Next Page on Web Browser 
+  - 웹브라우저의 페이지들도 위와 같은 맥락으로 이전 페이지와 다음 페이지가 연결되어있다.
 
 ## LinkedList Implementation
 
@@ -271,3 +281,9 @@ contains는 연결리스트 안에 target 값이 존재하는지 판단하여 bo
 이 target값은 연결리스트의 마지막인 꼬리에 있을 수도 있고, 중간 노드에 있을 수도 있고, 가장 처음인 머리에 있을 수도 있는 가능성이 있기 때문에, 연결리스트의 크기와 상관이 있는 작업이다.  
 target값이 꼬리에 있다면 머리부터 시작해서 순차적으로 노드를 거쳐가며 꼬리에 도달하기까지의 작업 혹은 시간이 소요된다.  
 >이 시간은 연결리스트의 사이즈인 n에 의존하는 작업이므로 time complexity는 **O(n)** 이라고 할 수 있다. 
+
+## Other Types of LinkedLists
+
+- singly linkedlist
+- doubly linkedlist
+- etc.
