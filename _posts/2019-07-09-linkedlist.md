@@ -123,7 +123,7 @@ Node생성자 함수에 addToTail로부터 받아온 value값을 넣어 새 노�
 
 ---
 
-removeHead는 머리르 제거하고, 그 머리에 든 값을 리턴하는 method이다.  
+removeHead는 머리를 제거하고, 그 머리에 든 값을 리턴하는 method이다.  
 removeHead도 위와 마찬가지로 비슷한 방식을 이용해 구현하면 된다. 
 ~~~javascript
 list.removeHead = function () {
@@ -210,3 +210,59 @@ var Node = function(value) {
 
 ~~~
 
+## Time Complexity (시간복잡도)
+
+#### 1. addToTail
+
+~~~javascript
+  list.addToTail = function (value) {
+    var newNode = Node(value);
+    if (!list.head) {
+      list.head = newNode;
+    }
+    if (!list.tail) {
+      list.tail = newNode;
+    } else {
+      list.tail.next = newNode;
+      list.tail = newNode;
+    }
+  };
+~~~
+
+>addToTail은 linkedlist의 tail property를 통해 바로 tail로 새로운 노드를 추가할 수 있다.  
+이 method는 linkedlist의 **사이즈에 무관하게 항상 동일한 양의 작업 혹은 시간이 소요된다.**   
+그리고 head부터 tail까지 하나하나 찾아봐야하는 연산작업을 필요로 하지 않는다.  
+그러므로 이 method의 time complexity는 **O(1)** 이라고 볼 수 있겠다.
+
+#### 2. removeHead
+
+~~~javascript
+list.removeHead = function () {
+  var removedHeadVal = list.head.value;
+  list.head = list.head.next;
+  return removedHeadVal;
+}
+~~~
+>removeHead는 addToTail과 비슷한 맥락으로 head property를 이용한 head에 손쉬운 접근이 가능하다.  
+이 역시 연결리스트의 크기에 의존하지 않는 작업이므로 time complexity는 **O(1)** 이다.
+
+#### 3. contains
+
+~~~javascript
+list.contains = function (target) {
+  var currentNode = list.head;
+  while (currentNode) {
+    if (currentNode.value === target) {
+      return true;
+    } else {
+      currentNode = currentNode.next;
+    }
+  };
+  return false;
+}
+~~~
+
+>contains는 연결리스트 안에 target 값이 존재하는지 판단하여 boolean value를 리턴하는 메소드이다.  
+이 target값은 연결리스트의 마지막인 꼬리에 있을 수도 있고, 중간 노드에 있을 수도 있고, 가장 처음인 머리에 있을 수도 있는 가능성이 있기 때문에, 연결리스트의 크기와 상관이 있는 작업이다.  
+target값이 꼬리에 있다면 머리부터 시작해서 순차적으로 노드를 거쳐가며 꼬리에 도달하기까지의 작업 혹은 시간이 소요된다.  
+이 시간은 연결리스트의 사이즈인 n에 의존하는 작업이므로 time complexity는 **O(n)** 이라고 할 수 있다. 
