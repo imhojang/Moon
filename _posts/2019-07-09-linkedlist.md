@@ -43,9 +43,9 @@ LinkedList는 노드(node)들로 이루어진 선형 자료구조이며, 각각�
 
 #### Advantages
 
-LinkedList가 Array와 비교했을 때 가진 장점 두가지를 꼽자면 하나는 Dynamic Size 이고 다른 하나는 ease of insertion and deletion 이다.
+LinkedList가 Array와 비교했을 때 가진 장점 두가지를 꼽자면 하나는 dynamic size 이고 다른 하나는 ease of insertion and deletion 이다.
 
-+ Dynamic Size: LinkedList는 노드를 추가/제거함에 따라 사이즈가 결정되지만, 배열은 생성시에 사이즈를 정해야한다. 
++ Dynamic Size: LinkedList는 노드를 추가/제거함에 따라 사이즈가 늘어나고 줄어들면서 사이즈가 바뀌지만, 배열은 생성시에 정한 사이즈이고 사이즈를 늘리거나 줄이려면 배열을 조작해야한다. 
 + Ease of insertion and deletion: 배열은 엘레먼트를 처음과 끝이 아닌 곳에 추가하려면 기존에 존재하는 엘레먼트들을 한칸씩 움직여줘야하는데, LinkedList는 원하는 위치에 존재하는 노드와 추가되는 노드의 레퍼런스 값을 조정하면 된다.
 
 #### Disadvantages
