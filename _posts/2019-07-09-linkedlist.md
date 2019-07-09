@@ -11,7 +11,12 @@ comments: true
 feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80
 ---
 
-# LinkedList (연결리스트)
+# LinkedList
+
++ [Basics](##LinkedList-Basics)
++ [Comparison with Array](##LinkedList-vs.-Array)
++ [Implementation](##LinkedList-Implementation)
++ [Time Complexity](##Time-Complexity-(시간복잡도))
 
 ![alt](https://s3-us-west-2.amazonaws.com/ib-assessment-tests/problem_images/singly-ll.png)
 
@@ -30,7 +35,7 @@ LinkedList는 노드(node)들로 이루어진 선형 자료구조이며, 각각�
 
 만약 Linkedlist에 노드가 하나만 존재한다면, 그것은 머리 속성으로 레퍼런스 할수있고, 꼬리 속성으로도 레퍼런스 할수있다. 
 
-#### 요약 
+#### Summary
 
 + LinkedList는 노드라는 단위로 이루어져 있다.
 + 각각의 노드에는 두가지의 값이 존재하는데, 하나는 노드가 가진 고유의 자료값이고 다른하나는 다음 노드를 가리키는 레퍼런스값이다.
