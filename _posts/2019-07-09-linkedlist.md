@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Data Structure 1] LinkedList"
+title:  "[Data Structure 1] LinkedList (연결리스트)"
 date:   2019-07-09
 excerpt: " "
 tag:
@@ -11,7 +11,7 @@ comments: true
 feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80
 ---
 
-# LinkedList
+# LinkedList (연결리스트)
 
 + [Basics](##LinkedList-Basics)
 + [Comparison with Array](##LinkedList-vs.-Array)
