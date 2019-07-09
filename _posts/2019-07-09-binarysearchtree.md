@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "[Data Structure 5] Binary Search Tree"
+date:   2019-07-09
+excerpt: " "
+tag:
+- markdown 
+- syntax
+- sample
+- test
+- jekyll
+comments: true
+feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80
+---
+

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Data Structure 0] Introduction to Stack, Queue, and LinkedList"
-date:   2019-07-09
+date:   2019-07-08
 excerpt: " "
 tag:
 - markdown 
@@ -19,7 +19,7 @@ feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.
 
 프런트엔드에선 자료를 다룰 일이 많고, 언젠가는 자료구조를 알고 있어야할 상황을 마주할 것이기 때문에 이 개념들을 명확히 알고 있어야한다.
 
-+ stack 이나 queue는 언어에 국한되지 않고 효율을 보장할 수 있는 자료구조이다.
++ stack 이나 queue, 그리고 linkedlist는 언어에 국한되지 않고 효율을 보장할 수 있는 자료구조이다.
 
 ### Stack 
 
