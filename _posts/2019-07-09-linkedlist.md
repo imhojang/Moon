@@ -2,7 +2,7 @@
 layout: post
 title:  "[Data Structure 1] LinkedList (연결리스트)"
 date:   2019-07-09
-excerpt: " "
+excerpt: "linkedlist basics, comparison with array, implementation, and time complexity"
 tag:
 - linkedlist
 - data structure
