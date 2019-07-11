@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Data Structure 4] Hashing and Hash Table"
+title:  "[Data Structure 3] Hashing and Hash Table"
 date:   2019-07-11
 excerpt: " "
 tag:
