@@ -19,7 +19,7 @@ feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.
 + [Time Complexity](#timecomplexity)
 
 <h2 id='basics'>HashTable Basics</h2>
-
+![alt](https://study.cs50.net/slideshows/1WyRdHGA7wYMYg078wXpv9qAjrELJBokRFRKGnVbnI7Q/img/0.png)
 
 
 <h2 id='reallifeusecase'>Real Life Use Case</h2>
