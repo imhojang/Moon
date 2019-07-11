@@ -13,14 +13,14 @@ feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.
 
 # LinkedList (연결리스트)
 
-+ [Basics](##LinkedList-Basics)
-+ [Comparison with Array](##LinkedList-vs.-Array)
-+ [Real Life Use Case](##Real-Life-Use-Case)
-+ [Implementation](##LinkedList-Implementation)
-+ [Time Complexity](##Time-Complexity)
++ [Basics](#basics)
++ [Comparison with Array](#linkedlistvsarray)
++ [Real Life Use Case](#reallifeusecase)
++ [Implementation](#implementation)
++ [Time Complexity](#timecomplexity)
 
 
-## LinkedList Basics
+<h2 id='basics'>LinkedList Basics</h2>
 ![alt](https://s3-us-west-2.amazonaws.com/ib-assessment-tests/problem_images/singly-ll.png)
 
 LinkedList는 노드(node)들로 이루어진 선형 자료구조이며, 각각의 노드는 두개의 값을 가지고 있다.
@@ -43,7 +43,7 @@ LinkedList는 노드(node)들로 이루어진 선형 자료구조이며, 각각�
 + 가장 첫 노드는 머리(head)라고 하고 맨 마지막 노드는 꼬리(tail)라고 한다.
 + 꼬리 노드에는 레퍼런스하는 값이 (null)이다.
 
-## LinkedList vs. Array
+<h2 id='linkedlistvsarray'>LinkedList vs. Array</h2>
 
 #### Advantages
 
@@ -57,7 +57,7 @@ LinkedList가 Array와 비교했을 때 가진 장점 두가지를 꼽자면 하
 + Random access is not allowed: LinkedList는 원하는 노드에 접근을 할 때 무조건 맨 처음 노드, head로 부터 시작해야한다는 단점이 있다.  
 + Extra memory space for a pointer is required with each element of the list: 한 단위당 하나의 고유 값만 가지고 있는게 아니라 다음 노드에 대한 레퍼런스값(pointer)도 가지고 있기 때문에 다른 자료구조에 비해 메모리공간을 추가적으로 차지한다.
 
-## Real Life Use Case
+<h2 id='reallifeusecase'>Real Life Use Case</h2>
 
 - Image Viewer
   - 이미지 뷰어에서 전 이미지와 그 다음 이미지는 서로 연결 되어있다. 그러므로 이전과 다음 버튼을 이용해 이미지를 순차적으로 볼 수 있다.
@@ -66,7 +66,7 @@ LinkedList가 Array와 비교했을 때 가진 장점 두가지를 꼽자면 하
 - Previous and Next Page on Web Browser 
   - 웹브라우저의 페이지들도 위와 같은 맥락으로 이전 페이지와 다음 페이지가 연결되어있다.
 
-## LinkedList Implementation
+<h2 id='implementation'>LinkedList Implementation</h2>
 
 먼저 linkedlist 라는 객체를 만들 생성자 함수를 만든다.
 
@@ -225,7 +225,7 @@ var Node = function(value) {
 
 ~~~
 
-## Time Complexity (시간복잡도)
+<h2 id='timecomplexity'>Time Complexity (시간복잡도)</h2>
 
 #### 1. addToTail
 
