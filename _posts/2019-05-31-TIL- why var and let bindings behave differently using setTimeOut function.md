@@ -11,6 +11,7 @@ tag:
 - jekyll
 comments: true
 feature: https://images.unsplash.com/photo-1547782793-e1444139967a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+category: [ Javascript ]
 ---
 
 ~~~javascript

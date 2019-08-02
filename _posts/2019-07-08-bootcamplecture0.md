@@ -11,6 +11,7 @@ tag:
 - jekyll
 comments: true
 feature: https://images.unsplash.com/photo-1552550049-db097c9480d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80
+category: [ Javascript ]
 ---
 
 # Data Structures (자료구조)

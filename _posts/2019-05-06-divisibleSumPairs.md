@@ -11,7 +11,7 @@ tag:
 - jekyll
 comments: true
 feature: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80
-
+category: [ Algorithms ]
 ---
 
 ### 합해서 나눠떨어지는 쌍 찾기 (divisibleSumPairs)
