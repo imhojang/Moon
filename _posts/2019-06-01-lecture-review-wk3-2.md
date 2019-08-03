@@ -307,3 +307,5 @@ function punish (...people) {
 
 const result = punish(guicheokPeople);
 ~~~
+
+reference: code examples--[vanilla coding](https://www.vanillacoding.co)
