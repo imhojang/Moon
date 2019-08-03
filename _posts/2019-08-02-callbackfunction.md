@@ -54,7 +54,7 @@ The callback function `handleVideo` simply logs whether download has finished or
 
 The nesting of async functions, which includes an async callback function looks like this:
 
-![callbackhell.com](/Users/imhojang/Desktop/callbackhell.com.png)
+<img src="../assets/postimg/callbackhell.com.png">
 
 This is an example from [callbackhell.com](www.callbackhell.com).  
 
