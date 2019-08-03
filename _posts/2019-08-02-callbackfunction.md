@@ -54,13 +54,13 @@ The callback function `handleVideo` simply logs whether download has finished or
 
 The nesting of async functions, which includes an async callback function looks like this:
 
-<img src="../assets/postimg/callbackhell.com.png">
+<img src="../assets/postimg/callbackhell.com.png" width="900">
 
 This is an example from [callbackhell.com](www.callbackhell.com).  
 
-The chaining of callbacks make it difficult to understand the code, and is very mistake-prone, creating a *callback-hell.*
+The chaining of callbacks makes the code difficult to understand and mistake-prone, creating what's called *callback-hell.*
 
-Just remember, callback function is the function that is called on in async operation to either signal that error was found, or continue tasks in async operations.
+What to take home:
 
-
+Callback function is the function that is being invoked in an async operation when the tasks are finished in an async function. Generally speaking, the callback functions are called to either signal errors or continue to next task async operation.
 
