@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Data Structure 3] Hashing and Hash Table (해쉬 테이블)"
+title:  "Hashing and Hash Table (해쉬 테이블)"
 date:   2019-07-11
 excerpt: " "
 tag:

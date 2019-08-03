@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "stack, queue, and linkedlist"
+title:  "Stack, Queue, and Linkedlist"
 date:   2019-07-08
 excerpt: " "
 tag:
