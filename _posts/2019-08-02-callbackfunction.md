@@ -16,15 +16,21 @@ category: [ Javascript ]
 
 ### What is a callback function?
 
-> callback function is the function that is called on in async operation to either signal that error was found, or continue tasks in async operations.
+Speaking in terms of asynchronous programming, callback function is the function that is called on in async operation to either signal that error was found, or continue tasks in async operations.
 
-Let's say that a function calls onto another function when all of its tasks have been completed, or when there was an error.
+Let's say that a function invokes another function when all of its tasks have been completed, or when there was an error.
 
-The function that is being called on, that is callback function! Simple. Isn't it?
+That function that is being invoked is callback function! 
 
+Simple. Isn't it?
 
+Here's another definition of callback from [codeburst](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced) if needed:
 
-Take a look at an example below to check and see callback function for yourself!
+**Simply put**: A callback is a function that is to be executed after another function has finished executing — hence the name ‘call back’.  
+
+**More complexly put**: In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions. Functions that do this are called higher-order functions. Any function that is passed as an argument is called a callback function.
+
+That's enough words. Look at an example below to check and see callback function for yourself!
 
 ```js
 downloadVideo('www.youtube.com/12345678', handleVideo)
