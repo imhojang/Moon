@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hash Table, Tree, and Complexity Analaysis"
+title:  "Introduction to Hash Table, Tree, and Complexity Analysis"
 date:   2019-07-10
 excerpt: " "
 tag:

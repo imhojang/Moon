@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Data Structure 0] Introduction to Stack, Queue, and LinkedList"
+title:  "Introduction to Stack, Queue, and LinkedList"
 date:   2019-07-08
 excerpt: " "
 tag:
