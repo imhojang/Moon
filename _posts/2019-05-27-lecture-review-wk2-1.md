@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Learning JS] Object/Array & Primitive/Reference"
+title:  "Object/Array & Primitive/Reference"
 date:   2019-05-27
 excerpt: "notes on object, array, primitive and reference data type in Javascript"
 tag:

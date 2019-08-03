@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "HTML, CSS & DOM 부가 설명"
+date:   2019-06-05
+excerpt: " "
+tag:
+- javascript
+- HTML
+- CSS
+- DOM
+comments: true
+feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+category: [ Javascript ]
+---
+
+## HTML - Hyper Text Markup Language.
+
+HTML은 마크업 언어로 쓰여져 있다. 
+
+HTML은 브라우저에 정보를 어떤 형식으로 보여주어야 하는지를 전달해주는 역할을 한다.
+
+## CSS 
+
+stylus, less, SCSS (SASS) 같은 랭귀지의 문법을 사용하여 폭발적인 효율을 이끌어낼수도 있다.
+
+### selector (선택자) 
+
+class:
+  class 추가할때.
+  document.body.classList.add('hihihi');
+  document.body.classList.length;
+  document.body.classList.contains().
+
+### descendant
+
+```CSS
+#nav li {
+    background-color : 'blue';
+}
+```
+
+### child: >
+
+직계 자식만 선택함
+
+```CSS
+#nav > ul {
+    background-color : 'blue';
+}
+```
+
+### universal: *
+
+### normalize.css / reset.css
+
+이런 것 들을 쓰면 브라우저마다 통일성 있게 맞출 수 있다.
+
+블록 요소는 좌측 부터 우측까지 차지하는 그런 기본적인 요소.  
+인라인 요소는 글을 쓰듯이 자리를 차지해가는 그런 요소.  
+
+### flexbox
+
+flexboxfroggy.com
+
+### DOM 
+
+DOM은 HTML을 접근 할수 있게 하는 응용프로그램 같다. 
+DOM는 화면에 보여지는 녀석. 집같은 역할
+HTML은 화면에 보여지지 않고 집의 도면같은 역할임. 
+
+document는 자바스크립트가 아니고, 자바스크립트로 이용할수 있도록  브라우저에서 제공해주는 것임.
+
+window라는 객체도 브라우저가 자바스크립트에 제공해주는 것임.
+`window.setTimeOut();`
+

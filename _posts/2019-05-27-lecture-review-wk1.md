@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Learning JS] Javascript Grammar"
+title:  "Javascript Grammar"
 date:   2019-05-27
 excerpt: "fill in the blank & short answer questions written to review Javascript grammar"
 tag:

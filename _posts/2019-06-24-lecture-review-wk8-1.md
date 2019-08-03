@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "React Basics"
+date:   2019-06-24
+excerpt: " "
+tag:
+- javascript
+- react
+comments: true
+feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+category: [ Javascript ]
+---
+# React Basics 
+
+## 리액트에 대한 간단한 소개
+
+```javascript
+import ReactDOM from 'react-dom';
+import React from 'react';
+
+// constructor function because the identifier starts with capital letter
+function Hello () {
+  return React.createElement('h1', null, 'hello world');
+  
+}
+
+ReactDOM.render(React.createElement(Hello), document.getElementbyId('root'));
+// render: display it on screen (what, where)
+```
+
+```javascript
+function Hello () { 
+  return React.createElement (( 'div' ), null,
+  React.createElement('h1', null, 'Hello World!');
+}
+
+ReactDOM.render(React.createElement(Hello), document.getElementbyId('root'));
+
+```
+
+- **In react world, Hello is also called "COMPONENT"**
+- What is component?  
+  - Bootstrap 에서 사용하는 개념이 같은 개념이다.
+  - 컴포넌트는 화면에 보이는 자주 쓰이는 어떤 개념들을 일컫는다. 하나의 버튼을 만들어서, 색만 바꿔서 쓸 수 있게 만들면 그게 컴포넌트이다.
+  - 컴포넌트를 만들 때 가장 중요한 것은 / 어려운 것은 -> 컴포넌트를 어떻게 끊어야하지 ?
+  - 컴포넌트의 단위를 정하는 것. 
+- React   
+  - 두번째 인자 이후로는 다 자식으로 들어가는 것임.
+
+```javascript
+function Hello () {
+  return React.createElement(
+    ('div'), 
+    null, 
+    React.createElement('h1', null, 'Hello World!'), 
+    React.createElement('h1', null, 'Hello World!'),
+    React.createElement('h1', null, 'Hello World!'),
+}
+
+ReactDOM.render(React.createElement(Hello), document.getElementbyId('root'));
+```
+
+# React Virtual DOM
+
+- 버츄얼돔 찾아보고 완전히 숙지하기
+- 검색 -> react developer tools extention  
+- 리액트에선 버츄얼 돔을 만들고, 이벤트 객체들도 버츄얼이다
+
+```javascript
+function List (title , age) {
+  return (
+    <ul>
+      {
+        DATA.map((num,i)) => <li key={i}>{title + age}</li>
+      }
+  );
+}
+```
+
+```javascript
+<List title= {title} age ={33}/> 
+```
+
+
+
+```javascript
+const DATA = [ 1, 2, 3, 4, 5 ];
+const DEFAULT = 0;
+```
+
+### State & Prop
+
+**State**는 컴포넌트 내에서만 필요한것일때 씀. 로컬베리어블같은것임. 내부에서만 신경쓸 로직이라면 스테이트 값으로 해서 관리하면 됌.  
+***Prop***은 parameter같은 개념임. 프롭은 외부에서 정보를 받아와서 정보를 완성시켜야할때 쓰는것.
+
+리액트에선 클래스를 줄때, class 라고 하지않고 className이라고 함.

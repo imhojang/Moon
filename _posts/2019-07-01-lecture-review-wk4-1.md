@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Learning JS] ES2015 & this"
+title:  "ES2015 & this"
 date:   2019-06-01
 excerpt: "further review on ES2015: default parameter, string interpolation, arrow functions, and 'this'"
 tag:

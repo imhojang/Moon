@@ -1,0 +1,142 @@
+---
+layout: post
+title:  "DOM Event Handling"
+date:   2019-06-17
+excerpt: " "
+tag:
+- javascript
+- DOM
+- event
+comments: true
+feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+category: [ Javascript ]
+---
+
+# Attaching Events
+
+HTML 태그에서 이벤트를 추가할시에는 함수실행문처럼 괄호까지 넣어주어야한다.   
+
+`<button onclick="logMessage()">Benjamin</button>`
+
+하지만, 실무에선 HTML 태그안에 inline으로 이벤트를 넣어서 하는 경우는 거의 없다.
+
+------
+
+## 2. using element property
+
+```javascript
+function alertMessage (msg) {
+  // msg 에는 이벤트 객체(evt)가 들어감. 그러므로 이벤트 오브젝트가 alert 됨
+  alert(msg || 'alerting');
+
+  var $button = document.querySelector('button');
+  $button.onclick = alertMessage;
+  $button.onclick = function (evt) {
+    alertMessage();
+  }
+  //$button.onfocus ... etc
+}
+```
+
+## 3. addEventListener 
+
+```javascript
+var $button = document.querySelector('button');
+$button.addEventListener('click', logMessage)
+$button.addEventListener('click', function (evt) { logMessage()});
+```
+
+## + Event can be attached to many different types of objects
+
+자바스크립트라는 언어는 싱글스레드 언어임. 한번에 한가지만 할수 있다는 말이다.  
+(event loop을 **검색**해볼 것)  
+
+```javascript
+window.addEventListener('load', function () {
+  logMessage('load');
+})
+window.addEventListener('scroll', function () {
+  logMessage('scroll');
+})
+//스크롤이 되는 요소여야지 스크롤 이벤트가 일어남. 스크롤 안될때 확인하기.
+
+window.addEventListener('resize', function () {
+  logMessage('resize');
+})
+//조금만이라도 복잡한 로직이 생기면 bottleneck 현상이 일어날수 있으므로 조심해야함
+```
+
+debounce / throttle -> 이벤트가 너무 자주 호출 되는 것을 조절할때 쓰는 함수다 (**검색**)
+
+## 'this' in event handler
+
+```javascript
+var $listContainer = document.querySelector('.list-container');
+$listContainer.addEventListener('click', function () {
+  logMessage(this);
+});
+```
+
+target =  이벤트가 실행되는 타겟  element that triggered event (e.g. the user clicked on)  
+currentTarget = 이벤트가 걸려있는 타켓 element that listens to event
+
+ \*events bubble by default\*
+
+## event.preventDefault
+
+```html
+<form>
+/* 
+  <label>Name</label>
+  <input type="text"/>
+  <label>Email</label>
+  <input type="email"/>
+  <button type="submit">Submit</button>
+*/
+</form>
+```
+
+// Form 태그의 기본동작은 submit버튼을 누르면 갑자기 사라진다..  
+// 이것을 사라지는 걸 원치 않은 상황이라면 preventDefault를 사용한다.
+
+```javascript
+var $form = document.querySelector('form');
+
+$form.addEventListener('submit', function (ev) {
+  ev.preventDefault();
+  console.log('prevented..');
+});
+```
+
+## Event Delegation
+
+#### Event Capturing / Event Bubbling
+
+#### 상속/위임 Prototype Chain 에서 설명했었음
+
+```javascript
+var count = 1;
+function onClick() {
+  console.log( `${count}`);
+  count++;
+}
+```
+
+이벤트 캡쳐링을 쓸 일은 거의 없을 것임.
+캡쳐링은 legacy적인 의미로 존재.  
+Legacy Code: 예전부터 내려온 코드. 유물같은 존재
+
+## Stop Propagation
+
+이벤트의 전파를 막고싶을때 사용한다.
+
+```javascript
+firstEl.addEventListener('click'), function (e) {
+  e.stopPropagation();
+  console.log('Capturing:' + firstEl.id); 
+}, true);
+```
+
+stopPropagation은 이벤트의 전파를 막고, 그 객체 자체의 이벤트는 실행된다.
+
+만약 버블링까지 등록되어 있다면 캡쳐링도 실행되고, 버블링도 실행될것이다.

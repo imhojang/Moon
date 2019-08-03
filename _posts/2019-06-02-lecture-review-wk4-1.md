@@ -1,0 +1,123 @@
+---
+layout: post
+title:  "Prototype Chain"
+date:   2019-06-02
+excerpt: "프로토타입, 생성자함수, 그리고 dunder proto에 대하여"
+tag:
+- javascript
+- prototype
+- constructor
+- dunder proto
+comments: true
+feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+category: [ Javascript ]
+---
+
+# prototype
+
+> 원래의 형태 또는 전형적인 예, 기초 또는 기본
+
+# constructor
+
+> 생성자 함수
+>
+> 객체를 만드는 함수
+>
+> new 키워드와 함께 쓰이는 함수 "Array" "Object" "Function" etc ... 뒤의 ( )는 생성자 함수를 실행
+
+```javascript
+new Array();
+new Object();
+new Function();
+```
+
+> Common convention: 변수는 camelCase를 따르지만, 생성자 함수 같은 경우엔 첫글자가 대문자로 시작한다. 
+
+```javascript
+var arr = [];
+var arr = new Array(); // these two are doing basically the same thing.
+```
+
+> (거의) 모든 자바스크립트 객채는 생성자 함수를 이용해 만들어진다.
+
+> 생성자 함수는 말 그대로 함수이고, 모든 함수는 객체이다. 고로 생성자 함수 또한 객체이다.
+
+> 자바스크립트 객체의 특징 : key/property (속성) value (값) pair
+>
+> Object.prototype
+
+
+
+> 우리가 생성자 함수를 만들 수 도 있음!
+>
+> 생성자 함수이냐 아니냐는 단지 그 쓰임새에 달린 문제다.
+
+
+
+> 생성자 함수 용도로 만든 함수는 그 의도를 표시하기 위해 첫글자를 대문자로 이름을 짓는다. 
+>
+> 그리고 안에는 this. 로 시작하는 variable이 많다. 
+
+```javascript
+function Foo () {
+    this.abc = '123';
+}
+```
+
+> 모든 함수를 만들었을 때 prototype이라는 속성은 기본으로 주어진다. 그 속성의 값은 객체이다.
+
+```javascript
+function foo () {
+    console.log('a');
+}
+foo.protoype;
+> {constructor: f}
+```
+
+> prototype이라는 속성에도 constructor 속성이 있다. 
+
+# instance
+
+> var obj = new Object()
+>
+> 생성자함수는 무조건 기본적으로 this 를 return 하게 되어있음.
+>
+> new Object() 를 실행함으로서 그 경우에, 그 사례에 생기는 object를 instance라고 함.
+
+```javascript
+var k = new Foo();
+//foo instance 라고 함.
+var h = new Foo();
+
+```
+
+> instance는 남편과 남편의 아내의 사랑의 결실
+>
+> 우리 아이에겐 비밀이 한가지 있습니다. 
+>
+> 남편의 아내에 물건에 손을 대는 도벽이 있음.
+
+```javascript
+Object.prototype.haha = '22';
+var obj = {};
+obj.haha
+> '22'
+```
+
+> 남편의 아내가 소유하고 있는 constructor 속성값을 훔쳐온 것이죠...
+>
+> 하지만, 만약 아이에게 있으면 본인의 것을 쓰고, 없으면 엄마에게서 가져와서 씁니다.
+
+## ~이것이 바로 Prototype Chain!~
+
+# Dunder proto
+
+## \__proto\_\_
+
+> 엄마나 아빠가 가지고 있는 것이 아니고, 아이가 항상 가지고 있는 속성임. Dunder proto는 엄마를 지칭함. 
+>
+> 모든 instance에는 무조건 있음.     .\__proto\_\_ 를 이용하여 변수의 엄마를 접근 할수있다.
+
+ Inheritance (상속)이라고 하기보다는 정확히 Behavior delegation 행동 위임 (대리)이라고 한다. 
+
+(YUI 고전 javascript library)

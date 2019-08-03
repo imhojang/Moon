@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "재귀 (Recursion) 와 클로져 (Closure)"
+date:   2019-06-03
+excerpt: " "
+tag:
+- javascript
+- recursion
+- closure
+comments: true
+feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+category: [ Javascript ]
+---
+
+# Recursion
+
+[재귀] 함수 내 에서 자기 자신을 호출하는 것.
+
+Base Case & Termination Case are different yet similar.
+
+**반드시 base case를 마련해놓을 것**
+
+recursion을 쓰고 싶다면, 먼저 코드를 주구장창 써보고, 반복되는 부분을 자세히 본다.
+
+DOM traversing recursion 인터뷰 질문으로 나오기도함.. 
+
+**직접해보기**
+
+recursion은 function stack이 쌓일수 있는 한계가 있음.
+
+그렇기 때문에 많은 숫자의 function stack이 쌓여 한계를 넘게 되는 경우에는 연산이 안될 수도 있다.
+
+# Closure
+
+[클로저]란 어떤 함수가 본인이 **선언되었을 때** 주변 환경(변수 etc)을 기억하는 것을 의미한다.  
+해당 함수가 실행되는 위치가 어디인지에는 관계없다.
+
+클로저에 대해 설명해보세요 => 인터뷰 질문임. 
+
+변수가 실행되는 함수 아래에 (뒤에) 늦게 선언되고 값이 할당 되어도. 
+
+함수가 실행되는 시점을 기준으로 보기 때문에 아래에 선언되고 값이 할당되는 변수도 주변환경으로 기억한다. 
+
+함수가 속한 스코프 뿐만아니라, 그것의 부모 스코프들 까지도 클로저에 담긴다.
+
+> 클로저라는 것은 어떤 함수가 어떤 정보를 지속적으로 기억한다는 것인데, 이것은 메모리를 차지하게 된다. 클로저로 인해 성능이슈가 생기는 경우들이 있다.  
+> 자바스크립트에는 Garbarge collection이라는 게 있는데, 자바스크립트 엔진이 알아서 비워준다. 
+

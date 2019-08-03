@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Learning JS] ES2015 a.k.a ES6"
+title:  "ES2015 a.k.a ES6"
 date:   2019-06-01
 excerpt: "how to use let & const keyword, rest parameter & spread operator, and array & object destructuring"
 tag:

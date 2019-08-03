@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Learning JS] Scope & Hoisting"
+title:  "Scope & Hoisting"
 date:   2019-05-28
 excerpt: "few important concepts to remember in scope and hoisting in Javascript"
 tag:

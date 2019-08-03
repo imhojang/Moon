@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Learning JS] Debugging with developer tools"
+title:  "Debugging with developer tools"
 date:   2019-05-29
 excerpt: "introduction to set of tools for debugging in developer tools window"
 tag:
