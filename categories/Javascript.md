@@ -1,4 +1,4 @@
 ---
 layout: category  
-title: JavaScript
+title: Javascript
 ---
