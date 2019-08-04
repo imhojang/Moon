@@ -1,12 +1,11 @@
 ## This Config File is for publishing on remote repo 
-
 # Site
-title:              "i m h o m e"
-bio:                "Imho, that's me.<br />Welcome to my blog."
-description:        "welcome to imhome"
+title:              "i m h o . j "
+bio:                "FIAT LUX"
+description:        "baby web developer's blog"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo2.jpg'
 background:         'assets/img/placeholder-temp5.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
