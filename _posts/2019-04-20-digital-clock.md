@@ -11,7 +11,6 @@ tag:
 - about
 - theme
 comments: false
-category: [ Projects ]
 ---
 
 # [Digital Clock](https://imhojang.github.io/digital-clock)

@@ -11,7 +11,6 @@ tag:
 - about
 - theme
 comments: false
-category: [ Projects ]
 ---
 
 # [Stopwatch](https://imhojang.github.io/stopwatch)
