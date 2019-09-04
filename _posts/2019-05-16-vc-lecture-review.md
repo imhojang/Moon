@@ -4,11 +4,10 @@ title:  "바닐라코딩 수강 후기"
 date:   2019-05-16
 excerpt: "대한민국 최고의 프론트엔드 엔지니어링 프로그램인 바닐라코딩에서 부트캠프 프렙 과정을 들으며 느낀점들을 Q&A 형식으로 적어보았습니다."
 tag:
-- markdown 
-- syntax
-- sample
-- test
-- jekyll
+- vanilla coding
+- 바닐라코딩
+- 수강 후기
+- 끄적끄적
 comments: true
 feature: ../assets/img/vc.png
 ---
