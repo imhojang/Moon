@@ -13,7 +13,7 @@ feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1
 category: [ Javascript ]
 ---
 
-The examples here are written only to help the understanding of the above topic, and lots of details have been omitted. It is possible for these examples to lack of individual features regarding Node, Express and EJS. Please do keep this in mind before proceeding! Thank you.
+The examples here are only written to help the understanding of the above topic, and details have been omitted. It is possible for these examples to lack of individual features regarding Node, Express and EJS. Please do keep this in mind before proceeding! Thank you.
 
 Let's assume you have a project with the following directory structure in this directory `~/Documents/Proejcts/project_test1/.`
 
