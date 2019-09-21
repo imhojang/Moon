@@ -31,7 +31,7 @@ project_test1
     
 ```
 
-In order to add use local files in the project directory, include the following middleware early in your `app.js`.
+In order to use the local files from the project directory, include the following middleware early in your `app.js`.
 
 ```js
 app.use(express.static(path.join(__dirname)))
