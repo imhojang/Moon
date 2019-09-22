@@ -45,7 +45,8 @@ app.use(express.static(path.join(__dirname)))
 Now add the following script or link tag in your `home.ejs`. The ejs file will now load local script and css files. 
 
 ```ejs
+// For local script import
 <script type='text/javascript' src='/utils/index.js'></script>
+// For local css import
 <link rel='stylesheet' href='/public/stylesheets/style.css'
 ```
-
