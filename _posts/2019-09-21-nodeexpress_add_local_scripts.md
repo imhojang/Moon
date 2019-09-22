@@ -40,7 +40,7 @@ app.use(express.static(path.join(__dirname)))
 - [**app**](https://expressjs.com/en/api.html) - app object is an instance of Express server
 - [**app.use**](https://expressjs.com/en/guide/using-middleware.html) - adds middleware to the **middleware stack**
 - [**express.static**](https://expressjs.com/en/starter/static-files.html) - built-in middleware function in express. 
-- [**__dirname**](https://nodejs.org/docs/latest/api/modules.html#modules_dirname) - the directory name of current module 
+- [**__dirname**](https://nodejs.org/docs/latest/api/modules.html#modules_dirname) - built in node js variable that stores the directory name of current module in string type.
 
 Now add the following script or link tag in your `home.ejs`. The ejs file will now load local script and css files. 
 
