@@ -15,7 +15,7 @@ category: [ Javascript ]
 
 The examples here are only written to help the understanding of the above topic, and details have been omitted. It is possible for these examples to lack of individual features regarding Node, Express and EJS. Please do keep this in mind before proceeding! Thank you.
 
-Let's assume you have a project with the following directory structure in this directory `~/Documents/Proejcts/project_test1/.`
+Let's assume you have a project with the following directory structure in this directory `~/Documents/Projects/project_test1/.`
 
 ```
 project_test1
