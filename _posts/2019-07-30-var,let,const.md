@@ -101,7 +101,11 @@ category: [ Javascript ]
 - Hoisting of `let` 
 
   - 호이스팅
-    - `var` 선언과 같이 `let` 선언도 호이스팅 된다. 호이스팅시에 `var` 의 값은 정의 되기전까진 undefined로 초기화 되지만, `let` 의 값은 초기화 되지 않는다. 그렇기 때문에 `let` 변수가 선언이 되기 전에 그 변수를 사용하려한다면 `Reference Error` 이 생긴다.
+    - `var` 선언과 같이 `let` 선언도 호이스팅 된다. 호이스팅시에 `var` 의 값은 정의 되기전까진 undefined로 초기화 되지만, `let` 의 값은 초기화 되지 않는다. 그렇기 때문에 `let`선언으로 생긴 변수가 값이 할당 되기 전에 그 변수를 사용하려한다면 `Reference Error` 이 생긴다. let 으로 선언된 변수가 초기값이 설정되기 전까지의 상태를 Temporal Dead Zone에 있는 상태 라고 한다.
+
+- [Temporal Dead Zone (TDZ)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)
+
+  - 템포럴 데드 존: 선언과 동시에 undefined 로 초기값이 설정되는 var 과는 다르게 let은 값이 자동으로 초기화 되지 않는다. 그러므로 초기 값이 할당 되지 않은 채 let 선언된 변수는 사용하지 못하고, 변수의 초기 값을 할당할 때까지의 구간을 temporal dead zone이라고 한다.  
 
 ### CONST
 
@@ -142,6 +146,9 @@ category: [ Javascript ]
 
   - Hoisting of `const` 
     - ​	let과 같은 규칙을 따른다.
+
+  - Temporal Dead Zone (TDZ)
+    - 이것도 마찬가지로 let과 같은 규칙을 따른다.
 
 ### **요약**
 
