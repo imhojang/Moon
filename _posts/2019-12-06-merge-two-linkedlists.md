@@ -16,7 +16,7 @@ category: [ Algorithms ]
 ### Merge Two Sorted Lists (정렬된 두 연결리스트 합병하기)
 ---
 
-###### Problem Description:
+##### Problem Description:
 
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
@@ -29,7 +29,7 @@ Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4
 ```
 
-###### Sudo Code:
+##### Sudo Code:
 
 1. val과 next가 있는 dummy 노드를 만들어서 Head로 지정한다.
 2. runner 변수는 처음엔 Head를 가리키도록 한다.
@@ -39,7 +39,7 @@ Output: 1->1->2->3->4->4
 6. 반대로 l1의 값이 l2의 값보다 작다면 runner의 다음을 l1에 가리키게한다.
 7. 만약 기존의 두 연결리스트의 노드 중 하나가 더 이상 없다면 l1 혹은 l2를 가리키게 한다. (l1과 l2는 이미 정렬 되어있는 연결 리스트므로서 가리키게 해도 정렬된 순서에서 벗어나지 않는다)
 
-###### Code:
+##### Code:
 
 ```js
 function mergeTwoLinkedLists (l1, l2) {
