@@ -41,7 +41,7 @@ Output: 1->1->2->3->4->4
 
 ##### Code:
 
-```js
+```
 function mergeTwoLinkedLists (l1, l2) {
   var headDummyNode = { val: null, next: null };
   var runner = headDummyNode;
