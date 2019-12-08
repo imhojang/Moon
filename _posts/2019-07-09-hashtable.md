@@ -38,7 +38,7 @@ https://en.wikipedia.org/wiki/Hash_table
 해쉬테이블 자료구조를 사용하면, 자료를 보관할 때 찾기 쉽도록 정리하기 때문에 어디서 찾아야할지 알고 그만큼 자료를 찾는 시간도 단축된다. 
 
 ---
-![alt](https://study.cs50.net/slideshows/1WyRdHGA7wYMYg078wXpv9qAjrELJBokRFRKGnVbnI7Q/img/0.png)
+![alt](https://miro.medium.com/max/720/1*-ac6H_eKaqtHqcn9UsRuUA.png)
 
 일단 해쉬 테이블 자료구조를 더 살펴보기 전에 해쉬 함수에 대해 알아보자.  
 
