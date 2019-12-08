@@ -14,7 +14,7 @@ category: [ Algorithms ]
 ---
 
 ### Merge Two Sorted Lists (정렬된 두 연결리스트 합병하기)
----
+
 
 ##### Problem Description:
 
