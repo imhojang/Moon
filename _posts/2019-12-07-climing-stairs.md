@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Problem Solving] Climbing Stairs (LeetCode-Easy)"
-date:   2019-12-08
+date:   2019-12-07
 excerpt: ""
 tag:
 - javascript
