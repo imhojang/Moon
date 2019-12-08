@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Problem Solving] Climbing Stairs (LeetCode-Easy)"
-date:   2019-12-07
+title:  "[Problem Solving] Climbing Stairs (LeetCode-Easy)"
+date:   2019-12-08
 excerpt: ""
 tag:
 - javascript
@@ -11,9 +11,8 @@ comments: true
 feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
 category: [ Algorithms ]
 ---
-
 ### Climbing Stairs (계단오르기)
----
+
 
 ##### Problem Description:
 You are climbing a stair case. It takes n steps to reach to the top.  
