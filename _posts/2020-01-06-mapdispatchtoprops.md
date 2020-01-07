@@ -15,7 +15,7 @@ category: [ Javascript ]
 
 **이 글은 리액트를 이용하여 프로젝트를 진행한 경험이 있고, 리덕스에 대한 기초적인 이해가 있는 사용자들을 대상으로 작성한 것입니다.**
 
->mapDispatchToProps의 형태는 두가지가 있다. 함수형태 그리고 객체형태가 있다.
+>mapDispatchToProps의 형태는 두가지가 있다. 하나는 함수형태이고 다른 하나는 객체형태다.
 
 오늘 중점적으로 다룰 내용은 mapDispatchToProps의 형태이다. 그전에 앞서 mapDispatchToProps가 어떤 역할을 하는지 간략히 알아보자.
 
@@ -99,7 +99,7 @@ function mapDispatchToProps(dispatch) {
 }
 
 ```
-위의 bindActionCreators 함수는 첫번째 인자로 액션생성함수들이 담겨있는 객체를 받고, 두번쨰 인자로 dispatch를 받는다.
+위의 bindActionCreators 함수는 첫번째 인자로 액션생성함수들이 담겨있는 객체를 받고, 두번째 인자로 dispatch를 받는다.
 
 반환 값은 아래와 같다.
 ```js
@@ -121,7 +121,7 @@ mapDispatchToProps 함수 작성이 한결 편해졌다.
 const mapDispatchToProps = { increment, decrement, reset}
 ```
 
-이렇게 하면 리덕스가 내부적으로 bindActionCreators를 실행하는데 이때 mapDispatchProps 객체를 첫번쨰 인자로 받고, 두번째 인자로 dispatch를 받는다. 이 과정은 자동으로 진행되기 떄문에 따로 필요한 설정이 없다.
+이렇게 하면 리덕스가 내부적으로 bindActionCreators를 실행하는데 이때 mapDispatchProps 객체를 첫번째 인자로 받고, 두번째 인자로 dispatch를 받는다. 이 과정은 자동으로 진행되기 떄문에 따로 필요한 설정이 없다.
 
 mapDispatchToProps를 객체형태로 쓰는 것은 함수형태로 쓸때보다 코드가 훨씬 간결하고 한눈에 들어온다는 장점이 있다.
 
