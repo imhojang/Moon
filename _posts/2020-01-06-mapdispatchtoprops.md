@@ -47,7 +47,7 @@ const mapDispatchToProps = (dispatch) => {
 
 mapDispatchToProps 함수는 dispatch를 인자로 받고 어떤 객체를 반환한다. 이 객체에는 someActionCreator이라는 액션생성함수의 실행의 결과값인 액션객체를 dispatch로 감싸서 반환하는 함수가 키값과 맵핑되어 들어있다.
 
-mapDispatchToProps는 주로 이러한 형태를 띄게된다. 이렇게 하면 연결된 컴포넌트에선 someActionCreator을 prop으로 받아 볼 수 있게된다. 여기까지는 리덕스를 사용해본 이라면 모두 흔히 알고 있는 부분이다.
+mapDispatchToProps는 주로 이러한 형태를 띄게된다. 이렇게 하면 연결된 컴포넌트에선 someActionCreator을 prop으로 받아 볼 수 있게된다. 여기까지는 리덕스를 사용해 본 경험이 있다면 모두 흔히 알고 있는 부분이다.
 
 #### ownProps
 
