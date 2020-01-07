@@ -115,6 +115,8 @@ mapDispatchToProps 함수 작성이 한결 편해졌다.
 하지만 사실 이 방법 보다도 더 좋은 방법이 한가지가 있다. 
 바로 mapDispatchToProps를 함수가 아닌 객체로 만드는 것이다.
 
+#### Object Shorthand Form of mapDispatchToProps
+
 ```js
 const mapDispatchToProps = { increment, decrement, reset}
 ```
