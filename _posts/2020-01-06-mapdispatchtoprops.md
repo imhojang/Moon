@@ -127,5 +127,4 @@ mapDispatchToProps를 객체형태로 쓰는 것은 함수형태로 쓸때보다
 
 이렇게 객체형태의 mapDispatchToProps를 object shorthand form이라고 한다. 
 
->**리액트 리덕스 공식문서에선 특별히 다른 이유가 없는 한 object shorthand form의 mapDispatchToProps 쓰는 것을 추천하고 있다.**
-
+>**리액트 리덕스 공식문서에선 특별히 다른 이유가 없는 한 object shorthand form을 쓰는 것을 추천하고 있다.**
