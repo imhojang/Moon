@@ -73,7 +73,7 @@ ownProps를 사용하게 되면 props가 바뀔 때마다 새로 바뀐 props가
 
 흥미로운 사실 한가지는 react-redux의 저자 Dan Abramov는 props가 바뀔 때마다 액션 디스패쳐에 prop을 재바인딩(B) 하므로 컴포넌트가 리랜더링 될 때 액션 디스패쳐에 재바인딩 하는 편(A)이 속도 측면에서 더 빠를 것이라 했다.
 
-[여기에서 볼 수 있다.](https://github.com/reduxjs/redux-devtools/issues/250#issuecomment-186429931)
+[Dan Abramov의 글은 여기에서 볼 수 있다.](https://github.com/reduxjs/redux-devtools/issues/250#issuecomment-186429931)
 
 #### bindActionCreators
 
