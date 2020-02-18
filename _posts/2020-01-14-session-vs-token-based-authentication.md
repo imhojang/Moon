@@ -12,6 +12,7 @@ tag:
 comments: true
 feature: https://images.unsplash.com/photo-1467320424268-f91a16cf7c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
 category: [Javascript]
+published: false
 ---
 
 >쿠키에 대해 알아보았으니 이번 포스트에서는 세션과 토큰 인증 방법에 대한 내용을 다뤄보려고 한다. 세션과 토큰 모두 웹상에서의 인증 과정을 논할 때 자주 보이는 키워드들인데, 막상 생각해보면 이 마저도 정리가 잘 되어있지 않아있다. 웹상에서 사용자 인증을 거칠 때 주로 사용되는 세션과 토큰 인증 방식. 각각의 특징과 장단점들을 알아보자.
