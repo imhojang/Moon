@@ -13,4 +13,4 @@ tag:
 comments: false
 ---
 
-# [Digital Clock](https://seoulboy.github.io/digital-clock)
+# [Digital Clock](https://seoulboy.github.io/vanilla-digital-clock)
