@@ -9,7 +9,7 @@ logo:               'assets/img/logo2.jpg'
 background:         'assets/img/placeholder-temp5.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://imhojang.github.io
+url:                https://seoulboy.github.io
 #url:               http://127.0.0.1:4000/
 # Jekyll
 permalink:          /:title/
@@ -41,7 +41,7 @@ disqus_shortname:   taylantatli
 email: ericimhojang@gmail.com
 #twitter:            username
 #facebook:           username
-github-url:         imhojang
+github-url:         seoulboy
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           imho-jang
 #xing:              username

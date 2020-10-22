@@ -13,4 +13,4 @@ tag:
 comments: false
 ---
 
-# [Stopwatch](https://imhojang.github.io/stopwatch)
+# [Stopwatch](https://seoulboy.github.io/stopwatch)
